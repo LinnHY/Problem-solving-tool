@@ -248,7 +248,7 @@ export default {
 
         getSelectArea() {
             const result = []
-            // 区域起点坐标
+            // 区域起点坐标位置
             const { x, y } = this.start
             // 计算所有的组件数据，判断是否在选中区域内
             this.componentData.forEach(component => {
